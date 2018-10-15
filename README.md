@@ -4,10 +4,10 @@ A converter that converts SimpleCD Desktop database to the format used in [VeryC
 ## System Requirements
 * .NET Framework 4.7.2+
 
-[Runtime configuration](https://docs.microsoft.com/en-us/dotnet/framework/migration-guide/how-to-configure-an-app-to-support-net-framework-4-or-4-5) is needed for running under other .NET Framework versions.
+[Runtime configuration](https://docs.microsoft.com/en-us/dotnet/framework/migration-guide/how-to-configure-an-app-to-support-net-framework-4-or-4-5) is needed for running on other .NET Framework versions.
 
 ## Usage
-**Before using the converter, make sure SimpleCD Desktop is patched to the latest version so that the data is updated.**
+**Before using the converter, make sure SimpleCD Desktop is patched to the latest version so that the database is updated.**
 
 ```
 SimpleCDDatabaseConverter <source database file> <target database file>
