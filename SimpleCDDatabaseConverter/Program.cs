@@ -13,9 +13,15 @@ namespace VeryCDOfflineWebService
 
 			if (args.Length < 2)
 			{
-				Console.WriteLine("Usage: <source database file> <target database file>");
+				Console.WriteLine("Usage: SimpleCDDatabaseConverter <source database file> <target database file>");
 				Console.WriteLine();
-			}
+                Console.WriteLine("<source database file>");
+                Console.WriteLine("- The file name of SimpleCD Desktop SQLite database to be converted from");
+                Console.WriteLine();
+                Console.WriteLine("<target database file>");
+                Console.WriteLine("- The file name of VeryCD Offline Web Service SQLite database to be converted to");
+                Console.WriteLine();
+            }
 			else
 			{
 				Console.WriteLine("Converting SimpleCD database ...");
