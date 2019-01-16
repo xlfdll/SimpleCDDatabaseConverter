@@ -21,3 +21,5 @@ Notice that this converter only handles main database for items. **Comment datab
 
 ## Development Prerequisites
 * Visual Studio 2015+
+
+Before the build, generate-build-number.sh needs to be executed in a Git / Bash shell to generate build information code file (BuildInfo.cs).
