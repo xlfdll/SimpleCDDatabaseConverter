@@ -111,14 +111,14 @@ namespace VeryCDOfflineWebService
 
         public const Int32 BatchSize = 1000;
 
-        public static readonly String DateTimeFormat = "yyyy-MM-dd HH:mm:ss.FFFFFFF";
+        public const String DateTimeFormat = "yyyy-MM-dd HH:mm:ss.FFFFFFF";
 
         public static class SQL
         {
-            public static readonly String CreateTable = @"CREATE TABLE IF NOT EXISTS Entries (ID INTEGER PRIMARY KEY, Title TEXT NOT NULL, Description TEXT NOT NULL, Link TEXT NOT NULL, Category TEXT NOT NULL, SubCategory TEXT NOT NULL, PublishTime Text NOT NULL, UpdateTime Text NOT NULL)";
-            public static readonly String SelectAll = @"SELECT * FROM verycd";
-            public static readonly String InsertEntry = @"INSERT INTO Entries VALUES (NULL, @Title, @Description, @Link, @Category, @SubCategory, @PublishTime, @UpdateTime)";
-            public static readonly String CreateIndex = @"CREATE INDEX TitleIndex ON Entries (Title)";
+            public const String CreateTable = @"CREATE TABLE IF NOT EXISTS Entries (ID INTEGER PRIMARY KEY, Title TEXT NOT NULL, Description TEXT NOT NULL, Link TEXT NOT NULL, Category TEXT NOT NULL, SubCategory TEXT NOT NULL, PublishTime Text NOT NULL, UpdateTime Text NOT NULL)";
+            public const String SelectAll = @"SELECT * FROM verycd";
+            public const String InsertEntry = @"INSERT INTO Entries VALUES (NULL, @Title, @Description, @Link, @Category, @SubCategory, @PublishTime, @UpdateTime)";
+            public const String CreateIndex = @"CREATE INDEX TitleIndex ON Entries (Title)";
         }
     }
 }
