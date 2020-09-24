@@ -9,7 +9,7 @@ namespace VeryCDOfflineWebService
         {
             Console.WriteLine();
             Console.WriteLine("SimpleCD Database Converter");
-            Console.WriteLine("(C) 2017 Xlfdll Workstation");
+            Console.WriteLine("(C) 2018 Xlfdll Workstation");
             Console.WriteLine();
 
             if (args.Length < 2)
