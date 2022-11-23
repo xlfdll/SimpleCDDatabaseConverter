@@ -11,7 +11,7 @@ using Xlfdll;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Xlfdll Workstation")]
 [assembly: AssemblyProduct("VeryCD Offline Web Service")]
-[assembly: AssemblyCopyright("© 2018 Xlfdll Workstation")]
+[assembly: AssemblyCopyright("© 2017-2020 Xlfdll Workstation")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
