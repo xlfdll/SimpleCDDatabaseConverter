@@ -1,10 +1,10 @@
 # SimpleCD Database Converter
-A converter that converts SimpleCD Desktop database to the format used in [VeryCD Offline Web Service](https://github.com/xlfdll/VeryCDOfflineWebService).
+A converter that converts SimpleCD Desktop database to the format used in [VeryCD Offline Web Service](https://github.com/xlfdll/VeryCDOfflineWebService)
 
 ## System Requirements
 * .NET Framework 4.8
 
-[Runtime configuration](https://docs.microsoft.com/en-us/dotnet/framework/migration-guide/how-to-configure-an-app-to-support-net-framework-4-or-4-5) is needed for running on other .NET Framework versions.
+[Runtime configuration](https://docs.microsoft.com/en-us/dotnet/framework/migration-guide/how-to-configure-an-app-to-support-net-framework-4-or-4-5) may be needed for running on other .NET Framework versions.
 
 ## Usage
 **Before using the converter, make sure SimpleCD Desktop is patched to the latest version so that the database is updated.**
@@ -22,4 +22,4 @@ Notice that this converter only handles main database for items. **Comment datab
 ## Development Prerequisites
 * Visual Studio 2015+
 
-Before the build, generate-build-number.sh needs to be executed in a Git / Bash shell to generate build information code file (BuildInfo.cs).
+Before the build, generate-build-number.sh needs to be executed in a Git / Bash shell to generate build information code file (`BuildInfo.cs`).
